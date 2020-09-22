@@ -17,6 +17,9 @@ Theres no terms it's Proton-Link #FUCK#
 ...
 # Developer:
 TELEGRAM: t.me/laganty CHANNEL: t.me/ty_link
+
 GMAIL: anasybal@gmail.com
+
 FACEBOOK: fb.com/laganty
+
 INSTAGRAM: instagram.com/lagan.ty
