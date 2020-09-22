@@ -21,8 +21,7 @@ $user_ip = getUserIP();
 $go = $_GET['go'];
 /* mySQL */
 
-//$sql = "SELECT apikey,byip,url FROM `short` WHERE apikey='$go'";
-$sql = "SELECT `id`, `url`, `apikey`, `byip` FROM `short` WHERE `apikey`='$go'";
+$sql = "SELECT `id`, `url`, `alias`, `byip` FROM `short` WHERE `alias`='$go'";
 $result = $conn->query($sql);
 
 
@@ -70,7 +69,7 @@ color: #FF00F2;
 succes link | you well redrict <html><span id="cz"> in <bnf><span id="counter">10</span></bnf> second(s).</span><div> your ip: <a href="http://api.ipapi.com/'.$user_ip.'?access_key=5d46b1517ed5bf63813a860f8606e025&format=1">'.$user_ip.'</a></div></body></html>
 ';
 }elseif($conn->connect_error){
-	echo "error in db connect";
+	echo "error in db connect (_503_)";
 }
 }else{
 	echo "error in db 2 fucked request (_404_)";
