@@ -41,7 +41,7 @@ Note: i'am like the *shit* in front-end
 Theres no terms it's Proton-Link #FUCK#
 ...
 # support
-<><img src="https://laganty.ga/btc.jpg"></img><br>
+<br><img src="https://laganty.ga/btc.jpg"></img><br>
 
 WALLET ID: `1JaA79FJZnLUsfPGBixb92SW84sS44YVXS`
 
