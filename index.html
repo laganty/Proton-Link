@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+body{
+background: #212121;
+color: #27db31;
+font-family: tajawal;
+}
+stra{
+text-align: center ;
+}
+green{
+color: #27db31;
+}
+red{
+font-size: 24px;
+color: #fa0000;
+}
+yellow{
+color: #E7FF00;
+}
+blue{
+font-size: 25px;
+color: #0017FF;
+}
+bnf{
+color: #FF00F2;
+}
+</style>
+</head>
+<body>
+<stra><red>The </red><yellow>Eazy </yellow><blue>way <green>To</green></blue> <bnf>shrink </bnf></stra><br>
+ <form name="foo" action="inc/sh.php" method="POST" id="foo">
+        <label for="bar"><blue>In<bnf>p</bnf>ut</blue><red> A </red><yellow>Li</yellow><bnf>nk</bnf></label>
+        <input id="bar" name="link" type="text" value="" />
+        <input type="submit" value="Send" onclick="submitform(); return false;" />
+    </form>
+<div id="resp">
+</div>
+<!--<script type="text/javascript">
+function submitform()
+   {
+       var inputs = document.getElementsByClassName("inputs");
+       var formdata = new FormData();
+       for(var i=0; i<inputs.length; i++)
+       {
+           formdata.append(inputs[i].name, inputs[i].value);
+       }
+       var xmlhttp;
+       if(window.XMLHttpRequest)
+       {
+           xmlhttp = new XMLHttpRequest;
+       }
+       else
+       {
+           xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+       }
+       xmlhttp.onreadystatechange = function()
+       {
+          if(xmlhttp.readyState == 4 && xmlhttp.status == 200)
+          {
+
+          }
+       }
+       xmlhttp.open("POST", "sh.php");
+       xmlhttp.send(formdata);
+	   
+	   var para = document.createElement("p");
+		var node = document.createTextNode(json.onload);
+		para.appendChild(node);
+
+		var element = document.getElementById("resp");
+		element.appendChild(para);
+/*	   xmlhttp.onload = function () {
+    
+	var para = document.createElement("p");
+	var node = document.createTextNode("This is new.");
+	para.appendChild(node);
+
+	var element = document.getElementById("resp");
+	element.appendChild(para);
+	
+    console.log(this.responseText);*/
+   }
+	
+</script>-->
+</body>
+</html>
