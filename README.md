@@ -16,10 +16,10 @@ it's a very simple url shortener ( API & HTMl )
 Theres no terms it's Proton-Link #FUCK#
 ...
 # Developer:
-TELEGRAM: t.me/laganty CHANNEL: t.me/ty_link
+TELEGRAM: http://t.me/laganty  .&.  CHANNEL: http://t.me/ty_link
 
-GMAIL: anasybal@gmail.com
+GMAIL: anasybal@gmail.com  .&.
 
-FACEBOOK: fb.com/laganty
+FACEBOOK: http://fb.com/laganty  .&.
 
-INSTAGRAM: instagram.com/lagan.ty
+INSTAGRAM: http://instagram.com/lagan.ty  .&.
