@@ -33,7 +33,6 @@ if ($result->num_rows > 0) {
 	$to= $row["url"];
 	/* end fetch to r0w */
 	
-//$fn = file_get_contents("short/".$go.".link");
 if($go && !$conn->connect_error) {
 header( "refresh:10;url=".$to );
 header("charset=utf-8");
