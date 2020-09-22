@@ -2,24 +2,18 @@
 
 include('config.php');
 $method = $_SERVER['REQUEST_METHOD'];
-/*if ($method == 'POST'){
+if ($method == 'POST'){
     $url = $_POST['link'];
 	$cus = $_POST['cus'];
-} else {*/
+} else {
     $url = $_GET['link'];
 	$cus = $_GET['cus'];
-//}
+}
 header("Access-Control-Allow-Origin: *");
 header("content-type: application/json; charset=utf-8");
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
-
-$allo_chart = '/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[.\!\/\\\\w]*))?)/i';
-$verify = preg_match($url_reg);
-
-$spam = array("s", "g", "htaccess", "short", "api", "su", "bot", "laganty");
-
 $user_ip = getUserIP();
 $rrnd = rrnd();
   
@@ -30,7 +24,7 @@ if (!preg_match('/^([Hh]ttp|[Hh]ttps)(.*)/',$url)) {
 } else {
 $short='http://'.$_SERVER['SERVER_NAME'].'/'.$rrnd;
 /* mySL start */
-$sql="INSERT INTO `short`(`url`, `apikey`, `byip`)
+$sql="INSERT INTO `short`(`url`, `alias`, `byip`)
 VALUES('$url','$rrnd','$user_ip')";
 if ($conn->query($sql) === TRUE){
 /* mySQL end */
@@ -40,6 +34,7 @@ echo json_encode(['ok'=>true,'error'=>0,'msg'=>complete_short,'long'=>$url,'shor
 }
 }else{ echo "error connect to db"; }
 
+//delete the check request if you want this:->
 /*if(!$url && !$cus){
 header("Access-Control-Allow-Origin: *");
 header("content-type: application/json; charset=utf-8");
