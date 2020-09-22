@@ -40,6 +40,11 @@ Note: i'am like the *shit* in front-end
 # terms of use
 Theres no terms it's Proton-Link #FUCK#
 ...
+# support
+<><img src="https://laganty.ga/btc.jpg"></img><br>
+
+WALLET ID: `1JaA79FJZnLUsfPGBixb92SW84sS44YVXS`
+
 # Developer:
 TELEGRAM: http://t.me/laganty  .&.  CHANNEL: http://t.me/ty_link
 
