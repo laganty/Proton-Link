@@ -31,6 +31,14 @@ CREATE TABLE short(
 ```
 [Proton-Link](http://www.mediafire.com/file/i94nkui7zz9zbws/Proton-Link.App.rar/file) apk project for *SketchWare*
 
+# EX.
+
+```
+hard way: ( http://yourdomain.com/inc/sh.php?link=http://some link... )
+
+eazy way: ( http://yourdomain.com and submit link :| )
+```
+
 # screen
 Api:
 <br><img src="1.png"></img><br>
