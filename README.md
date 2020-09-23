@@ -56,7 +56,7 @@ WALLET ID: `1JaA79FJZnLUsfPGBixb92SW84sS44YVXS`
 # Developer:
 TELEGRAM: http://t.me/laganty  .&.  CHANNEL: http://t.me/ty_link
 
-GMAIL: anasybal@gmail.com  .&.
+GMAIL: laganty@outlook.sa  .&.
 
 FACEBOOK: http://fb.com/laganty  .&.
 
