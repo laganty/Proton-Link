@@ -60,4 +60,4 @@ GMAIL: laganty@outlook.sa  .&.
 
 FACEBOOK: http://fb.com/laganty  .&.
 
-INSTAGRAM: http://instagram.com/lagan.ty  .&.
+INSTAGRAM: http://instagram.com/lagant.y  .&.
